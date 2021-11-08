@@ -7,10 +7,13 @@ license = "AGPLv3"
 
 [tool.poetry.dependencies]
 python = "^3.7.0"
-"discord.py" = "^1.7.3"
+"discord.py" = {version = "^1.7.3", extras = ["voice"]}
 pydantic = "^1.8.2"
 python-dotenv = "^0.19.0"
 types-dataclasses = {version = "^0.1.7", python = "3.6"}
+ffmpeg = "^1.4.0"
+opuslib = "^3.0.0"
+pynacl = "^1.4.0"
 
 [tool.poetry.dev-dependencies]
 coverage = "^5.5"
